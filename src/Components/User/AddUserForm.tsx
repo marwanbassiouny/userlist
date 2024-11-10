@@ -10,7 +10,7 @@ const AddUserForm = ({ onAddUser, show, onHide }) => {
   const [phone, setPhone] = useState('');
 
   const handleSubmit = (e: any) => {
-    e.preventDefault(); // Prevents the default form submission behavior
+    e.preventDefault(); 
 
     const newUser: any = { name, email, phone };
     onAddUser(newUser);

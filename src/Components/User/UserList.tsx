@@ -14,11 +14,11 @@ const UserList = () => {
   const [error, setError] = useState<Error | null>(null);
   const [selectedUser, setSelectedUser] = useState<User | null>(null);
   const [showModal, setShowModal] = useState(false);
-  const [showAddUserModal, setShowAddUserModal] = useState(false); // For AddUserForm visibility
+  const [showAddUserModal, setShowAddUserModal] = useState(false); 
   let nextId = users.length+1;
 
   const dispatch = useDispatch();
-  const globalState = useSelector((state: any) => state.favorites.favoritesUsers); // Accessing favorite users from Redux
+  const globalState = useSelector((state: any) => state.favorites.favoritesUsers); 
   
   console.log(globalState)
 
