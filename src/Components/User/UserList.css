@@ -1,0 +1,22 @@
+
+.favorite-icon {
+    font-size:30px;
+    transition: color 0.2s ease;
+  }
+  
+  .favorite-icon.favorite {
+    color: gold;
+  }
+  
+  .favorite-icon:hover {
+    color: orange;
+  }
+  
+ 
+  table td {
+    cursor: pointer;
+    text-align: left;
+  }
+  .Modal-text{
+    font-size: 25px;
+  }
